@@ -1,70 +1,46 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# beach-accommodation
+This is a Beach Accommodation React app using React, styled-components, and Contentful.<br>
 
-## Available Scripts
+<img src="https://github.com/maryamalsadat-tabatabaei/beach-accommodation/assets/87692864/1dcad73e-4553-40f6-925a-92fc02571d9f" alt="Home Page- loading data" width="300" height="300">
+<img src="https://github.com/maryamalsadat-tabatabaei/beach-accommodation/assets/87692864/e4724c25-05ee-4fba-bed5-454835a15b62" alt="Home Page" width="300" height="300">
+<img src="https://github.com/maryamalsadat-tabatabaei/beach-accommodation/assets/87692864/bb401e8b-9ce7-4ec4-bcbf-e29e760f7e10" alt="Accomodation List width="300" height="300">
+<img src="https://github.com/maryamalsadat-tabatabaei/beach-accommodation/assets/87692864/e49f70d8-49ca-4daf-a8a5-86357987ecbb" alt="Accomodation Filtering" width="300" height="300">
+<img src="https://github.com/maryamalsadat-tabatabaei/beach-accommodation/assets/87692864/d1f929b9-3dc2-423b-a2d6-35cd18271ba6" alt="Accomodation Not Found" width="300" height="300">
+<img src="https://github.com/maryamalsadat-tabatabaei/beach-accommodation/assets/87692864/c33a28c5-c00c-4358-85aa-70713954f8b4" alt="Accomodation Detail" width="300" height="300">
+<img src="https://github.com/maryamalsadat-tabatabaei/beach-accommodation/assets/87692864/2531ab30-3e17-4a4b-9a4b-7bc356180675" alt="Accomodation List Page- Mobile view" width="300" height="300">
+<img src="https://github.com/maryamalsadat-tabatabaei/beach-accommodation/assets/87692864/a4542b6b-8e78-4481-a462-579fbc410ec0" alt="Accomodation Home Page- Mobile view" width="300" height="300">
 
-In the project directory, you can run:
+## Table of Contents
 
-### `yarn start`
+- [Installation](#installation)
+- [Usage](#usage)
+- [Configuration](#configuration)
+- [Project Background](#project-background)
+- [New Features](#new-features)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Installation
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+1. Clone the repository: `git clone https://github.com/maryamalsadat-tabatabaei/beach-accommodation.git`
+2. Navigate to the project directory: `cd beach-accommodation`
+3. Install dependencies: `npm install`
 
-### `yarn test`
+## Usage
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To run the project, use the following command:
 
-### `yarn build`
+<pre><code>npm start</code></pre>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Configuration
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To configure the project, create .env file and add the following variables:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- REACT_APP_API_SPACE
+- REACT_APP_ACCESS_TOKEN
 
-### `yarn eject`
+OR to get data locally, comment line 36 in context.js file and uncomment the command line 37
+`let rooms = this.formatData(items);`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Project Background
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is based on the work of [John Smilga's](https://github.com/john-smilga) course, and I would like to acknowledge his contribution. I have made modifications to the original project and I built upon that foundation to extend the project's functionality and address specific requirements. However, the core concept and initial implementation were inspired by the course and the work of the original author.
