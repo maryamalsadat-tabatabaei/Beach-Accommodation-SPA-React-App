@@ -1,35 +1,32 @@
 
-# beach-accommodation
-This is a Beach Accommodation React app using React, styled-components, and Contentful.<br>
+# Beach Accommodation SPA React App
+Welcome to the Beach Accommodation SPA React App! This is a modern, responsive application built using React, styled-components, and Contentful. It allows users to browse and search for various beach accommodation options based on their preferences. The app also utilizes react-icons, react-router-dom for navigation, and React Context for managing the state of the application.<br>
 
-<img src="https://github.com/maryamalsadat-tabatabaei/beach-accommodation/assets/87692864/1dcad73e-4553-40f6-925a-92fc02571d9f" alt="Home Page- loading data" width="300" height="300">
-<img src="https://github.com/maryamalsadat-tabatabaei/beach-accommodation/assets/87692864/e4724c25-05ee-4fba-bed5-454835a15b62" alt="Home Page" width="300" height="300">
-<img src="https://github.com/maryamalsadat-tabatabaei/beach-accommodation/assets/87692864/bb401e8b-9ce7-4ec4-bcbf-e29e760f7e10" alt="Accomodation List width="300" height="300">
-<img src="https://github.com/maryamalsadat-tabatabaei/beach-accommodation/assets/87692864/e49f70d8-49ca-4daf-a8a5-86357987ecbb" alt="Accomodation Filtering" width="300" height="300">
-<img src="https://github.com/maryamalsadat-tabatabaei/beach-accommodation/assets/87692864/d1f929b9-3dc2-423b-a2d6-35cd18271ba6" alt="Accomodation Not Found" width="300" height="300">
-<img src="https://github.com/maryamalsadat-tabatabaei/beach-accommodation/assets/87692864/c33a28c5-c00c-4358-85aa-70713954f8b4" alt="Accomodation Detail" width="300" height="300">
-<img src="https://github.com/maryamalsadat-tabatabaei/beach-accommodation/assets/87692864/2531ab30-3e17-4a4b-9a4b-7bc356180675" alt="Accomodation List Page- Mobile view" width="300" height="300">
-<img src="https://github.com/maryamalsadat-tabatabaei/beach-accommodation/assets/87692864/a4542b6b-8e78-4481-a462-579fbc410ec0" alt="Accomodation Home Page- Mobile view" width="300" height="300">
+<img src="https://github.com/maryamalsadat-tabatabaei/beach-accommodation/assets/87692864/e5dad281-3240-41e8-9e45-abbcdead4e69" alt="Beach Accommodation" width="30%" height="auto">
+<img src="https://github.com/maryamalsadat-tabatabaei/beach-accommodation/assets/87692864/1f19cf59-1b14-44d5-ac45-10b4f6cf9b5d" alt="Beach Accommodation" width="30%" height="auto" >
+<img src="https://github.com/maryamalsadat-tabatabaei/beach-accommodation/assets/87692864/cce07f5e-22af-4cc9-9406-e320857fb002" alt="Beach Accommodation" width="30%" height="auto">
+<img src="https://github.com/maryamalsadat-tabatabaei/beach-accommodation/assets/87692864/b599bb49-c588-4832-b9db-24698c5e20e9" alt="Beach Accommodation" width="30%" height="auto">
+<img src="https://github.com/maryamalsadat-tabatabaei/beach-accommodation/assets/87692864/a6b889e4-4378-45e3-afdd-115fdfa4d032" alt="Beach Accommodation" width="30%" height="auto">
 
 ## Table of Contents
 
 - [Installation](#installation)
-- [Usage](#usage)
 - [Configuration](#configuration)
+- [Features](#features)
 - [Project Background](#project-background)
-- [New Features](#new-features)
 
 ## Installation
 
 1. Clone the repository: `git clone https://github.com/maryamalsadat-tabatabaei/beach-accommodation.git`
 2. Navigate to the project directory: `cd beach-accommodation`
 3. Install dependencies: `npm install`
+4. Set up Contentful:
+  - Create a free account on Contentful.
+  - Create a new Contentful space.
+  - Configure the environment variables for Contentful API access ( REACT_APP_API_SPACE and REACT_APP_ACCESS_TOKEN) by creating a .env file in the project root and setting the values.
+5. Start the development server: npm start
+6. Open your browser and visit http://localhost:3000 to see the app in action.
 
-## Usage
-
-To run the project, use the following command:
-
-<pre><code>npm start</code></pre>
 
 ## Configuration
 
@@ -40,6 +37,29 @@ To configure the project, create .env file and add the following variables:
 
 OR to get data locally, comment line 36 in context.js file and uncomment the command line 37
 `let rooms = this.formatData(items);`
+
+## Features
+
+- Featured Rooms: The app showcases a selection of featured rooms that are highlighted for their unique features or popularity.
+- Search Rooms: Users can search for rooms based on various properties such as room type, number of guests, room price, availability of breakfast, allowance of pets, and room size.
+
+**Key Technologies** 
+<br>The Beach Accommodation SPA React App utilizes the following technologies:
+
+- React: A JavaScript library for building user interfaces. It provides an efficient and flexible way to render components and manage the application state.
+- styled-components: A CSS-in-JS library that allows you to write CSS styles directly in your JavaScript code. It provides a powerful way to style React components.
+- Contentful: A content management platform that enables the app to store and retrieve data for the rooms, including descriptions, images, and additional information.
+- react-icons: A library of customizable icons for React applications. It provides a wide range of icons to enhance the visual appeal and user experience.
+- react-router-dom: A routing library for React applications. It enables navigation between different pages within the app, ensuring a smooth browsing experience.
+- React Context: A feature of React that allows for state management across multiple components without the need for prop drilling. It simplifies the sharing and updating of data throughout the application.
+
+**Room Categories**
+<br>The Beach Accommodation SPA React App offers several room categories, each with its own unique features and amenities. Here's what you can expect from each category:
+
+- Description: Provides an overview of the room, including its size, layout, and any special features.
+- Gallery: Displays a collection of high-quality images showcasing the room's interior, amenities, and surroundings.
+- Info: Presents detailed information about the room, including the number of guests it can accommodate, pricing details, and any included extras.
+- Extras: Lists additional amenities or services available to guests, such as complimentary breakfast, access to a private beach, spa treatments, etc.
 
 ## Project Background
 
