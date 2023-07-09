@@ -17,8 +17,8 @@ Welcome to the Beach Accommodation SPA React App! This is a modern, responsive a
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/maryamalsadat-tabatabaei/beach-accommodation.git`
-2. Navigate to the project directory: `cd beach-accommodation`
+1. Clone the repository: `git clone https://github.com/maryamalsadat-tabatabaei/Beach-Accommodation-SPA-React-App.git`
+2. Navigate to the project directory: `cd Beach-Accommodation-SPA-React-App`
 3. Install dependencies: `npm install`
 4. Set up Contentful:
   - Create a free account on Contentful.
